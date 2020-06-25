@@ -1,0 +1,88 @@
+body
+{
+    background: lightgrey;
+    color: #444444;
+    font-family: 'Noto';
+	line-height: 5;
+	display: flex;
+	justify-content: space-between;
+	grid-template-rows: 80px 1fr 80px;
+	grid-template-columns: 100px 1fr  100px;
+	
+  }
+  img {
+    height: 150px;
+    background-color: rgb(197, 206, 197);
+    border: 10px solid rgb(202, 200, 196);
+    padding: 15px;
+    margin: 20px;
+  }
+
+#myNavBar {
+	background: #575555;
+	color: white;
+	display: flex;
+	border: 2px solid #e4dbdb;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-right: 30px;
+	padding-left:30px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 50px;
+
+}
+
+.cnavbar-header {
+	width: 100px;
+	background: #312d2e;
+	color: #504747;
+	border-radius: 16px;
+	margin: 5px;
+	text-align: left;
+	line-height: 20px;
+  }
+
+#about {
+	padding: 36px 0px 48px 0px;
+	background-color: lightgrey;
+	
+}
+/*
+
+
+#aboutme{
+	font-family: 'Graduate',cursive;
+	font-size: 64px;
+}
+
+#aboutDescription {
+	font-family: 'Coda',cursive;
+	font-size: 20px;
+}
+
+#portfolio {
+	padding: 36px 0px 24px 0px;
+	background-color: white;
+}
+
+.caption{
+	font-family: 'Coda',cursive;
+}
+*/
+/*
+#contacts {
+	padding: 36px 0px 48px 0px;
+	background-color: lightgray;
+}
+
+#row{
+	margin-bottom: 12px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#icon {
+	width: 64px;
+	length: 64px;
+}
+*/
