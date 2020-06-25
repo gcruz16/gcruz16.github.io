@@ -6,16 +6,20 @@ body
 	line-height: 5;
 	display: flex;
 	justify-content: space-between;
-	grid-template-rows: 80px 1fr 80px;
-	grid-template-columns: 100px 1fr  100px;
+	grid-template-rows: 80px 1fr  1fr 80px;
+	grid-template-columns: 200px 1fr  1fr 200px;
 	
   }
+
+  
+
   img {
     height: 150px;
     background-color: rgb(197, 206, 197);
     border: 10px solid rgb(202, 200, 196);
     padding: 15px;
-    margin: 20px;
+	margin: 20px;
+	display: block;
   }
 
 #myNavBar {
@@ -28,7 +32,32 @@ body
 	padding-right: 30px;
 	padding-left:30px;
 	font-family: 'Fredoka One', cursive;
-	font-size: 50px;
+	font-size: 30px;
+	text-align:center;
+    grid-row: 1;
+	grid-column:1;
+	background:#575555;
+	font-family:  'Fredoka One';
+	font-size: 25px;
+	display:flex;
+	text-align: center;
+	text-decoration-color: white;
+	color: white;
+
+}
+a {
+	text-decoration:none;
+	color: white;
+	text-decoration-color: white;
+}
+
+#navbar-right
+{
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	text-align:left;
+	text-decoration-color: #e4dbdb;
+	text-decoration:none;
 
 }
 
